@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import CheckList from "./CheckList";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -7,13 +7,9 @@ import SearchList from "./SearchList";
 
 
 function App() {
-  const [listContent,setlistContent]=useState([])
+  const [listContent,setlistContent]=useState(JSON.parse(localStorage.getItem('todolist')) || [{id:1,checked:false,content:'create your list'}])
   const [newValue,setnewValue]=useState('')
   const [search,setsearch]=useState('')
-
-  useEffect(()=>{
-    setlistContent(JSON.parse(localStorage.getItem('todolist')))
-  },[])
 
   const handelCheck=(id)=>{
     const modList1=listContent.map((list)=>(
