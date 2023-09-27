@@ -42,7 +42,7 @@ function App() {
  
   return (
     <div className="App">
-        <Header title='To Do List'/>
+        <Header title='Check List'/>
         <AddList 
           newValue={newValue}
           setnewValue={setnewValue}
