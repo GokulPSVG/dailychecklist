@@ -147,10 +147,10 @@ ul{
     margin-right: 0.2rem;
   }
   .searchItem input{
-    flex-grow: 0.95;
+    flex-grow: 0.9;
   }
   .listItem label{
-    max-width: 4.4rem;
+    max-width: 8.2rem;
   }
   .listItem svg{
     height: 2.5rem;
