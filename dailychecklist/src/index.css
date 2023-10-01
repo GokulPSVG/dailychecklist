@@ -31,7 +31,7 @@ footer p{
   margin: 0rem;
 }
 main{
-  min-height: 60vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
 }
@@ -136,4 +136,19 @@ ul{
 }
 .listItem svg:hover, svg:focus{
     color: rgba(255, 0, 0, 0.776);
+}
+
+@media screen and (min-width: 320px) {
+  ul{
+    margin-right: 2.5rem;
+  }
+  .listItem label{
+    font-size: 100%;
+  }
+  .listItem svg{
+    font-size: 100%;
+  }
+  .listItem input{
+    font-size: 100%;
+  }
 }

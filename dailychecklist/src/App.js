@@ -28,7 +28,7 @@ function App() {
   }
 
   const addNewItem=(newValue)=>{
-    const id= (listContent.length) ? listContent[listContent.lenght-1].id+1 : 1
+    const id= (listContent.length) ? listContent[(listContent.length)-1].id+1 : 1
     const addList={id:id,checked:false,content:newValue}
     const newList=[...listContent,addList]
     setlistContent(newList)
