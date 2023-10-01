@@ -99,7 +99,7 @@ ul{
   list-style: none;
   font-size: 150%;
   min-height: 50%;
-  min-width: 50%;
+  min-width: 80%;
 }
 .listItem{
   display: flex;
