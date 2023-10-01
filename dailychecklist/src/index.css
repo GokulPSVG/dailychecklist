@@ -144,6 +144,8 @@ ul{
   }
   .listItem label{
     font-size: 100%;
+    display :flex;
+    flex-flow: column;
   }
   .listItem svg{
     font-size: 100%;
