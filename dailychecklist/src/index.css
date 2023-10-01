@@ -143,12 +143,8 @@ ul{
     margin: 1rem;
     padding: 0rem;
   }
-  .addNewItem input{
-    margin-left: 2rem;
-    max-width: 18rem
-  }
   .addNewItem button{
-    margin-right: 2rem;
+    margin-right: 0.2rem;
   }
   .listItem label{
     max-width: 4.4rem;
