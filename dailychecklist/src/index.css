@@ -140,11 +140,12 @@ ul{
 
 @media screen and (max-width: 480px) {
   ul{
-    margin-right: 2.5rem;
+    margin: 1rem;
+    padding: 0rem;
   }
   .addNewItem input{
     margin-left: 2rem;
-    max-width: 17rem
+    max-width: 18rem
   }
   .addNewItem button{
     margin-right: 2rem;
