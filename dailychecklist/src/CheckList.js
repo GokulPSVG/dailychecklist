@@ -14,7 +14,7 @@ const CheckList = ({listContent,handelCheck,handelDelete}) => {
                         handelDelete={handelDelete}
                     />
                 ))
-             ) : (<p>Start creating your list</p>)            
+             ) : (<p>No list to show</p>)            
             }
         </ul>
     </main>

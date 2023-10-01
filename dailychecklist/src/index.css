@@ -87,7 +87,7 @@ main p{
 }
 .searchItem input{
   height: 3rem;
-  flex-grow: 0.72;
+  flex-grow: 0.73;
   border-radius: 0.5rem;
   font-size: 150%;
 }
@@ -145,6 +145,9 @@ ul{
   }
   .addNewItem button{
     margin-right: 0.2rem;
+  }
+  .searchItem input{
+    flex-grow: 0.95;
   }
   .listItem label{
     max-width: 4.4rem;
