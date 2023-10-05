@@ -52,6 +52,7 @@ function App() {
           search={search}
           setsearch={setsearch}
         />
+        <span className="listCount">{listContent.length} list(s)</span>
         <CheckList 
           listContent={listContent.filter((list)=>(
             ((list.content).toLowerCase()).includes(search.toLowerCase())
