@@ -1,10 +1,9 @@
 import { useState } from "react";
 import CheckList from "./CheckList";
-import Footer from "./Footer";
-import Header from "./Header";
 import AddList from "./AddList";
 import SearchList from "./SearchList";
-
+import Header from "./Header";
+import Footer from './Footer'
 
 function App() {
   const [listContent,setlistContent]=useState(JSON.parse(localStorage.getItem('todolist')) || [{id:1,checked:false,content:'create your list'}])
@@ -42,17 +41,20 @@ function App() {
  
   return (
     <div className="App">
-        <Header title='Check List'/>
-        <AddList 
-          newValue={newValue}
-          setnewValue={setnewValue}
-          handelSubmit={handelSubmit}
-        />
-        <SearchList 
-          search={search}
-          setsearch={setsearch}
-        />
-        <span className="listCount">{listContent.length} list(s)</span>
+            <AddList 
+              newValue={newValue}
+              setnewValue={setnewValue}
+              handelSubmit={handelSubmit}
+            />
+            <SearchList 
+              search={search}
+              setsearch={setsearch}
+            />
+          <div className="listCount">
+              <Header />
+              <span className="">{listContent.length} list(s)</span>
+          </div>
+          <Footer />
         <CheckList 
           listContent={listContent.filter((list)=>(
             ((list.content).toLowerCase()).includes(search.toLowerCase())
@@ -60,7 +62,6 @@ function App() {
           handelCheck={handelCheck}
           handelDelete={handelDelete}
         />
-        <Footer />
     </div>
   );
 }
