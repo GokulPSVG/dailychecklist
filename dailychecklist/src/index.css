@@ -215,11 +215,11 @@ ul::-webkit-scrollbar{
   }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
   .App{
-    background-image: url(./images/mobileback.jpg);
-    background-size: 100%;
-    background-position:30%;
+    background-image: url(./images/background.jpg);
+    background-size: 250%;
+    background-position:80%;
     position: fixed;
     top: 0rem;
     width: 100%;
@@ -229,7 +229,7 @@ ul::-webkit-scrollbar{
     width: 65%;
     height: 44%;
     position: fixed;
-    top: 11rem;
+    top: 10rem;
     left: 3.5rem;
   }
 }
