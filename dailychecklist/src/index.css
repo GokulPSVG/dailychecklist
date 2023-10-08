@@ -177,9 +177,8 @@ ul::-webkit-scrollbar{
   .addNewItem{
     max-height: 1rem;
     margin:0.5rem 0rem 0rem 0rem;
-    width: 70%;
+    width: 100%;
     margin-left: 0rem;
-    
   }
   .addNewItem button{
     height: 10%;
@@ -188,7 +187,7 @@ ul::-webkit-scrollbar{
   .addNewItem > input {
     height: 10%;
     flex-grow: 0.8;
-    margin:0rem 0rem 0rem 4rem;
+    margin:0rem 0rem 0rem 3rem;
   }
   .listItem label{
     width: 45%;
