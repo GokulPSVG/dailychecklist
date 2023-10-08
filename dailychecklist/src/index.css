@@ -186,7 +186,7 @@ ul::-webkit-scrollbar{
   }
   .addNewItem > input {
     height: 10%;
-    flex-grow: 0.8;
+    flex-grow: 0.6;
     margin:0rem 0rem 0rem 3rem;
   }
   .listItem label{
