@@ -218,7 +218,7 @@ ul::-webkit-scrollbar{
 @media screen and (max-device-width: 760px) and (orientation: portrait) {
   .App{
     background-image: url(./images/background.jpg);
-    background-size: 250%;
+    background-size: 255%;
     background-position:80%;
     position: fixed;
     top: 0rem;
@@ -231,6 +231,51 @@ ul::-webkit-scrollbar{
     position: fixed;
     top: 10rem;
     left: 3.5rem;
+  }
+  .listCount{
+    margin-left: 25%;
+    width: 50%;
+    position: fixed;
+    top: 6rem;
+    font-size: 120%;
+  }
+  .addNewItem{
+    max-height: 1rem;
+    margin:0.5rem 0rem 0rem 0rem;
+  }
+  .addNewItem button{
+    height: 10%;
+    margin-right: 0.2rem;
+  }
+  .addNewItem > input {
+    height: 10%;
+    margin:0rem 0rem 0rem 15rem;
+  }
+  .searchItem > input{
+    flex-grow: 1;
+    margin-left: 12.5rem;
+  }
+  .listItem label{
+    width: 45%;
+    font-size: 100%;
+  }
+  .listItem svg{
+    height: 2rem;
+    width: 2rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+  }
+  .listItem input{
+    height: 2rem;
+    width: 2rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+  }
+  .quote{
+    height: 8%;
+    width: 80%;
+    font-size: 100%;
+    position: fixed;
+    bottom: 3.3rem;
+    left: 3.3rem;
   }
 }
 @media screen and (min-width: 761px) {
