@@ -187,11 +187,7 @@ ul::-webkit-scrollbar{
   }
   .addNewItem > input {
     height: 10%;
-    margin:0rem 0rem 0rem 1rem;
-  }
-  .searchItem > input{
-    flex-grow: 1;
-    margin-left: 12.5rem;
+    margin:0rem 0rem 0rem 4rem;
   }
   .listItem label{
     width: 45%;
