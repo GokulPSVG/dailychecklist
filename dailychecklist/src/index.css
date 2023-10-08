@@ -154,7 +154,7 @@ ul::-webkit-scrollbar{
   .App{
     background-image: url(./images/background.jpg);
     background-size: 335%;
-    background-position:50%;
+    background-position:70%;
     position: fixed;
     top: 0rem;
     width: 100%;
