@@ -189,6 +189,9 @@ ul::-webkit-scrollbar{
     flex-grow: 0.6;
     margin:0rem 0rem 0rem 3rem;
   }
+  .searchItem > input{
+    margin-left: 2.2rem;
+  }
   .listItem label{
     width: 45%;
     font-size: 100%;
