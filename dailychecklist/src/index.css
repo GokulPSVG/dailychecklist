@@ -178,6 +178,7 @@ ul::-webkit-scrollbar{
     max-height: 1rem;
     margin:0.5rem 0rem 0rem 0rem;
     width: 70%;
+    margin-left: 2rem;
   }
   .addNewItem button{
     height: 10%;
