@@ -239,7 +239,7 @@ ul::-webkit-scrollbar{
 @media screen and (min-width: 760px) {
   .App{
     background-image: url(./images/background.jpg);
-    background-size: 250%;
+    background-size: 260%;
     background-position: 30%;
     position: fixed;
     top: 0rem;
