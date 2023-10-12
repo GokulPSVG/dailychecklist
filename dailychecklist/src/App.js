@@ -51,7 +51,7 @@ function App() {
               setsearch={setsearch}
             />
           <div className="listCount">
-              <Header />
+              <Header title={'To Do List'}/>
               <span className="">{listContent.length} list(s)</span>
           </div>
           <Footer />
